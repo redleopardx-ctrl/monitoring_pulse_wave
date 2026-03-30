@@ -6,41 +6,58 @@
     <title>Terms & Privacy - MPW</title>
     <style>
         body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; padding: 30px; max-width: 900px; margin: auto; color: #333; background-color: #f9f9f9; }
-        .container { background: white; padding: 40px; border-radius: 8px; shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .container { background: white; padding: 40px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
         h1 { border-bottom: 3px solid #00FFAB; padding-bottom: 10px; color: #222; }
         h2 { color: #275552; margin-top: 40px; border-left: 5px solid #00FFAB; padding-left: 15px; }
         .lang-switch { background: #eee; padding: 10px; border-radius: 5px; margin-bottom: 20px; font-size: 0.9em; }
         .en-section { margin-top: 60px; padding-top: 60px; border-top: 1px dashed #ccc; }
         b { color: #d32f2f; }
+        .update-date { font-weight: bold; color: #666; }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="lang-switch">
-            Jump to: <a href="#english">English Version</a> | <a href="#japanese">日本語</a>
+            Jump to: <a href="#japanese">日本語</a> | <a href="#english">English Version</a>
         </div>
 
         <section id="japanese">
             <h1>利用規約およびプライバシーポリシー</h1>
-            <p>最終更新日: 2026年3月8日</p>
+            <p class="update-date">最終更新日: 2026年3月30日</p>
             
-            <h2>免責事項（利用規約）</h2>
-            <p>本アプリは医療機器ではありません。カメラを使用した計測結果は、健康管理の目安として利用することを目的としており、医師の診断や代わりになるものではありません。本アプリの利用により生じた損害について、開発者は一切の責任を負いません。</p>
+            <h2>利用規約（免責事項）</h2>
+            <p><b>本アプリは医療機器ではありません。</b>スマートフォンのカメラを使用した計測機能は、独自のアルゴリズムに基づいた「脈波スコア」を表示するウェルネス・フィットネス目的の機能であり、<b>血圧の測定、疾患の診断、予防、または治療を目的としたものではありません。</b></p>
+            <p>正確な血圧測定が必要な場合は、必ず認証された医療機器（血圧計）を使用してください。本アプリの利用により生じた損害について、開発者は一切の責任を負いません。</p>
 
             <h2>プライバシーポリシー</h2>
-            <p>本アプリは、カメラ画像（指先の輝度変化）を解析して脈波を抽出しますが、<b>画像データおよび解析データはすべてユーザーの端末内でのみ処理され、外部サーバーに送信・収集されることはありません。</b></p>
+            <p>本アプリは、カメラ画像（指先の輝度変化）を解析して脈波を抽出しますが、<b>画像データおよび解析データはすべてユーザーの端末内（ローカルストレージ）でのみ処理・保存され、外部サーバーに送信・収集されることはありません。</b></p>
+            
+            <h3>データの保持と削除について</h3>
+            <ul>
+                <li><b>保持期間:</b> ユーザーが手動で入力した記録データ（血圧ログ等）およびアプリが算出したスコアデータは、ユーザーがアプリをアンインストールするか、アプリ内の操作でデータを削除するまで、デバイス内にのみ保持されます。</li>
+                <li><b>削除方法:</b> ユーザーはアプリ内の「履歴」画面から個別のデータを削除できます。また、アプリをアンインストールすることで、デバイス内のすべての関連データが即座に削除されます。</li>
+            </ul>
+
             <p>Google AdMobを利用した広告配信、およびFirebaseを利用した匿名の利用統計収集を行う場合があります。これらは各社のポリシーに基づき管理されます。</p>
         </section>
 
         <section id="english" class="en-section">
             <h1>Terms of Service & Privacy Policy</h1>
-            <p>Last Updated: March 8, 2026</p>
+            <p class="update-date">Last Updated: March 30, 2026</p>
 
-            <h2>Disclaimer (Terms of Service)</h2>
-            <p>This app is NOT a medical device. The measurement results obtained via the camera are intended for general fitness and wellness purposes only and should not be used for medical diagnosis or treatment. The developer is not responsible for any issues arising from the use of this app.</p>
+            <h2>Terms of Service (Disclaimer)</h2>
+            <p><b>This app is NOT a medical device.</b> The measurement features using the smartphone camera are intended for general fitness and wellness purposes only, providing proprietary "Pulse Scores." <b>It is NOT intended for measuring blood pressure, or for the diagnosis, prevention, or treatment of any medical condition.</b></p>
+            <p>For accurate blood pressure readings, always use a certified medical device. The developer is not responsible for any issues or damages arising from the use of this app.</p>
 
             <h2>Privacy Policy</h2>
-            <p>This app analyzes camera images (fingertip brightness changes) to extract pulse waves. <b>All image and analysis data are processed locally on your device; no personal health data is transmitted to or collected by external servers.</b></p>
+            <p>This app analyzes camera images to extract pulse waves. <b>All image and analysis data are processed and stored locally on your device; no health-related data is transmitted to or collected by external servers.</b></p>
+            
+            <h3>Data Retention and Deletion</h3>
+            <ul>
+                <li><b>Retention Period:</b> User-entered logs (e.g., medical BP logs) and app-generated scores are stored exclusively on the user's local device. Data is retained until the user manually deletes it or uninstalls the app.</li>
+                <li><b>Deletion Method:</b> Users can delete individual entries from the "History" screen. Uninstalling the app will immediately remove all associated data from the device.</li>
+            </ul>
+
             <p>We may use Google AdMob for advertisements and Firebase for anonymous usage statistics. These services are governed by their respective privacy policies.</p>
         </section>
     </div>
