@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Terms & Privacy - MPW</title>
+    <title>Terms & Privacy - Pulse Wave Viewer</title>
     <style>
         body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; padding: 30px; max-width: 900px; margin: auto; color: #333; background-color: #f9f9f9; }
         .container { background: white; padding: 40px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
@@ -13,6 +13,7 @@
         .en-section { margin-top: 60px; padding-top: 60px; border-top: 1px dashed #ccc; }
         b { color: #d32f2f; }
         .update-date { font-weight: bold; color: #666; }
+        .disclaimer-box { background: #fff5f5; border: 1px solid #feb2b2; padding: 20px; border-radius: 5px; margin-bottom: 20px; }
     </style>
 </head>
 <body>
@@ -23,19 +24,22 @@
 
         <section id="japanese">
             <h1>利用規約およびプライバシーポリシー</h1>
-            <p class="update-date">最終更新日: 2026年3月30日</p>
+            <p class="update-date">最終更新日: 2026年4月4日</p>
             
-            <h2>利用規約（免責事項）</h2>
-            <p><b>本アプリは医療機器ではありません。</b>スマートフォンのカメラを使用した計測機能は、独自のアルゴリズムに基づいた「脈波スコア」を表示するウェルネス・フィットネス目的の機能であり、<b>血圧の測定、疾患の診断、予防、または治療を目的としたものではありません。</b></p>
-            <p>正確な血圧測定が必要な場合は、必ず認証された医療機器（血圧計）を使用してください。本アプリの利用により生じた損害について、開発者は一切の責任を負いません。</p>
+            <div class="disclaimer-box">
+                <h2>【重要】医療に関する免責事項</h2>
+                <p><b>本アプリは医療機器ではありません。</b></p>
+                <p>本アプリが提供する情報は、一般的なウェルネスおよびフィットネス目的のみを意図しており、<b>いかなる病状や疾患についても、診断、処置、治療、または予防を行うものではありません。</b></p>
+                <p>本アプリの解析結果（独自の脈波スコア等）は医学的な判断の根拠にはなりません。医学的なアドバイス、診断、または処置が必要な場合は、本アプリの結果に依存せず、必ず医師または医療専門家にご相談ください。正確な血圧測定が必要な場合は、認証された医療機器（血圧計）を使用してください。</p>
+            </div>
 
             <h2>プライバシーポリシー</h2>
-            <p>本アプリは、カメラ画像（指先の輝度変化）を解析して脈波を抽出しますが、<b>画像データおよび解析データはすべてユーザーの端末内（ローカルストレージ）でのみ処理・保存され、外部サーバーに送信・収集されることはありません。</b></p>
+            <p>本アプリ（Pulse Wave Viewer）は、カメラ画像を解析して脈波を抽出しますが、<b>画像データおよび解析データはすべてユーザーの端末内でのみリアルタイム処理され、外部サーバーに送信・収集されることはありません。</b></p>
             
             <h3>データの保持と削除について</h3>
             <ul>
-                <li><b>保持期間:</b> ユーザーが手動で入力した記録データ（血圧ログ等）およびアプリが算出したスコアデータは、ユーザーがアプリをアンインストールするか、アプリ内の操作でデータを削除するまで、デバイス内にのみ保持されます。</li>
-                <li><b>削除方法:</b> ユーザーはアプリ内の「履歴」画面から個別のデータを削除できます。また、アプリをアンインストールすることで、デバイス内のすべての関連データが即座に削除されます。</li>
+                <li><b>保持期間:</b> ユーザーが入力した記録データおよびアプリが算出したスコアデータは、ユーザーがアプリをアンインストールするか、アプリ内の操作でデータを削除するまで、デバイス内にのみ保持されます。</li>
+                <li><b>削除方法:</b> ユーザーはアプリ内の操作で個別のデータを削除できます。また、アプリをアンインストールすることで、デバイス内のすべての関連データが即座に削除されます。</li>
             </ul>
 
             <p>Google AdMobを利用した広告配信、およびFirebaseを利用した匿名の利用統計収集を行う場合があります。これらは各社のポリシーに基づき管理されます。</p>
@@ -43,19 +47,22 @@
 
         <section id="english" class="en-section">
             <h1>Terms of Service & Privacy Policy</h1>
-            <p class="update-date">Last Updated: March 30, 2026</p>
+            <p class="update-date">Last Updated: April 4, 2026</p>
 
-            <h2>Terms of Service (Disclaimer)</h2>
-            <p><b>This app is NOT a medical device.</b> The measurement features using the smartphone camera are intended for general fitness and wellness purposes only, providing proprietary "Pulse Scores." <b>It is NOT intended for measuring blood pressure, or for the diagnosis, prevention, or treatment of any medical condition.</b></p>
-            <p>For accurate blood pressure readings, always use a certified medical device. The developer is not responsible for any issues or damages arising from the use of this app.</p>
+            <div class="disclaimer-box">
+                <h2>【IMPORTANT】Medical Disclaimer</h2>
+                <p><b>This app is NOT a medical device.</b></p>
+                <p>The information provided by this app is for general wellness and fitness purposes only. <b>It is NOT intended for the diagnosis, treatment, cure, or prevention of any medical condition or disease.</b></p>
+                <p>The analysis results (e.g., proprietary pulse scores) are not a substitute for professional medical advice. Always consult with a physician or healthcare professional for medical advice, diagnosis, or treatment. For accurate blood pressure readings, always use a certified medical device.</p>
+            </div>
 
             <h2>Privacy Policy</h2>
-            <p>This app analyzes camera images to extract pulse waves. <b>All image and analysis data are processed and stored locally on your device; no health-related data is transmitted to or collected by external servers.</b></p>
+            <p>Pulse Wave Viewer analyzes camera images to extract pulse waves. <b>All image and analysis data are processed locally on your device in real-time; no personal health data is transmitted to or collected by external servers.</b></p>
             
             <h3>Data Retention and Deletion</h3>
             <ul>
-                <li><b>Retention Period:</b> User-entered logs (e.g., medical BP logs) and app-generated scores are stored exclusively on the user's local device. Data is retained until the user manually deletes it or uninstalls the app.</li>
-                <li><b>Deletion Method:</b> Users can delete individual entries from the "History" screen. Uninstalling the app will immediately remove all associated data from the device.</li>
+                <li><b>Retention Period:</b> User-entered logs and app-generated scores are stored exclusively on the user's local device. Data is retained until manually deleted or the app is uninstalled.</li>
+                <li><b>Deletion Method:</b> Users can delete individual entries within the app. Uninstalling the app will immediately remove all associated data from the device.</li>
             </ul>
 
             <p>We may use Google AdMob for advertisements and Firebase for anonymous usage statistics. These services are governed by their respective privacy policies.</p>
